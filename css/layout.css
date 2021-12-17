@@ -1,0 +1,547 @@
+@charset "utf-8";
+
+#wrapper {
+  width: 100%;
+}
+
+/* 상단 부분 */
+#header {
+  float: left;
+  width: 100%;
+}
+
+.h_top {
+  float: left;
+  width: 100%;
+  height: 72px;
+  background-color: #777171;
+}
+.top_mn {
+  margin: 0 360px;
+  width: 1200px;
+}
+.top_mn ul {
+  float: right;
+  margin: 17px 0;
+}
+.top_mn li {
+  float: left;
+  margin-right: 25px;
+}
+.top_mn a {
+  font-size: 30px;
+  color: #fff;
+}
+.h_bot {
+  float: left;
+  width: 100%;
+  height: 175px;
+}
+.nav {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 175px;
+}
+.logo {
+  float: left;
+  margin: 54px 0 39px 0;
+}
+
+.logo img {
+  width: 188px;
+  height: 82px;
+}
+.nav ul {
+  position: absolute;
+  float: left;
+  margin: 68px 0 53px 225px;
+}
+.nav li {
+  float: left;
+  margin-right: 12px;
+}
+.nav a {
+  font-size: 39px;
+  color: black;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav li:last-child > a > img {
+  float: left;
+  width: 75px;
+  height: 55px;
+}
+
+/*--------- 메인 이미지 --------*/
+#main {
+  float: left;
+  width: 100%;
+  height: 830px;
+  position: relative;
+  overflow: hidden;
+}
+#img_area {
+  width: 100%;
+  height: 830px;
+  position: relative;
+}
+
+#imgs li {
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  top: 0;
+}
+#imgs li:nth-child(1) {
+  left: 0;
+  background: url(/images/main01.jpg) no-repeat;
+}
+#imgs li:nth-child(2) {
+  left: 100%;
+  background: url(/images/main02.jpg) no-repeat;
+}
+#imgs li:nth-child(3) {
+  left: 200%;
+  background: url(/images/main03.jpg) no-repeat;
+}
+
+.btns {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -32.5px;
+  z-index: 1000;
+}
+
+.btns li {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #444;
+}
+.btns li.on {
+  background-color: gold;
+}
+
+.btns li a {
+  display: block;
+  text-indent: -9999px;
+}
+/*--------- 콘텐츠  --------*/
+#contents {
+  float: left;
+  width: 100%;
+  height: 7100px;
+}
+
+/*--------- 배송 --------*/
+.delivery {
+  margin: 0 auto;
+  margin-top: 139px;
+  width: 1200px;
+  height: 180px;
+}
+.delivery ul {
+  float: left;
+}
+
+.delivery ul li {
+  float: left;
+  margin-right: 46px;
+}
+.delivery ul li:last-child {
+  margin-right: 0px;
+}
+/*--------- 추천 메뉴 --------*/
+.recommand {
+  margin: 0 auto;
+  width: 1200px;
+  height: 589px;
+  margin-top: 219px;
+  position: relative;
+}
+
+.recommand > div {
+  float: left;
+  margin: 100px 0 0 20px;
+  width: 266px;
+  height: 197px;
+}
+.recommand > div a {
+  font-size: 40px;
+  text-decoration: underline;
+  color: black;
+}
+.recommand > div > p {
+  font-size: 40px;
+  color: black;
+}
+.recommand img {
+  position: absolute;
+  top: 0;
+  left: 281px;
+  width: 638px;
+  height: 589px;
+}
+
+.recommand > p {
+  float: right;
+  font-size: 30px;
+  margin: 210px 10px 0 0;
+}
+/*--------- 베스트 메뉴 --------*/
+.best_mn {
+  margin: 0 auto;
+  margin-top: 216px;
+  width: 1200px;
+  height: 1066px;
+}
+.best_mn h1 {
+  font-size: 58px;
+  margin: 47px 0 52px 75px;
+}
+.best_t {
+  float: left;
+  margin-left: 83px;
+}
+.best_t li {
+  float: left;
+  margin-right: 76px;
+}
+
+.best_t li:last-child {
+  margin-right: 0px;
+}
+.best_t li img {
+  width: 300px;
+  height: 293px;
+}
+.best_t li p {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+.best_b {
+  float: left;
+  margin: 62px 0 0 83px;
+}
+.best_b li {
+  float: left;
+  margin-right: 76px;
+}
+.best_b li:last-child {
+  margin-right: 0px;
+}
+.best_b li img {
+  width: 300px;
+  height: 293px;
+}
+.best_b li p {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+/*--------- 통합 --------*/
+#mid {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*--------- 할인 메뉴 --------*/
+.sale_mn {
+  float: left;
+  margin: 70px 0 0 0;
+  width: 540px;
+  height: 1600px;
+}
+.sale_mn ul {
+  float: left;
+  margin: 43px 89px 0 89px;
+}
+.sale_mn ul li {
+  margin-bottom: 50px;
+}
+.sale_mn ul li img {
+  width: 359px;
+  height: 210px;
+}
+.sale_mn ul li:first-child {
+  margin-bottom: 60px;
+}
+.sale_mn ul li:first-child img {
+  height: 280px;
+}
+
+.sale_mn ul li h1 {
+  margin-top: 10px;
+  font-size: 58px;
+  text-align: center;
+}
+.sale_mn ul li p {
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+}
+/*--------- MD 추천 메뉴 --------*/
+.md_mn {
+  float: right;
+  margin: 70px 0 0 0;
+  width: 540px;
+  height: 1600px;
+}
+.md_mn ul {
+  float: left;
+  margin: 43px 89px 0 89px;
+}
+.md_mn ul li {
+  margin-bottom: 50px;
+}
+.md_mn ul li img {
+  width: 359px;
+  height: 210px;
+}
+.md_mn ul li:first-child {
+  margin-bottom: 60px;
+}
+.md_mn ul li:first-child img {
+  height: 280px;
+}
+
+.md_mn ul li h1 {
+  margin-top: 10px;
+  font-size: 58px;
+  text-align: center;
+}
+.md_mn ul li p {
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+}
+/*--------- 배너  --------*/
+
+#banner {
+  width: 100%;
+}
+#banner > img {
+  width: 100%;
+}
+
+/*--------- 추가될 메뉴  --------*/
+.plus_mn {
+  margin: 0 auto;
+  margin-top: 216px;
+  width: 1200px;
+  height: 1066px;
+}
+.plus_mn h1 {
+  text-align: center;
+  font-size: 58px;
+  margin: 47px 0 52px 75px;
+}
+.plus_t {
+  float: left;
+  margin-left: 83px;
+}
+.plus_t li {
+  float: left;
+  margin-right: 76px;
+}
+
+.plus_t li:last-child {
+  margin-right: 0px;
+}
+.plus_t li img {
+  width: 300px;
+  height: 293px;
+}
+.plus_t li p {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+.plus_b {
+  float: left;
+  margin: 62px 0 0 83px;
+}
+.plus_b li {
+  float: left;
+  margin-right: 76px;
+}
+.plus_b li:last-child {
+  margin-right: 0px;
+}
+.plus_b li img {
+  width: 300px;
+  height: 293px;
+}
+.plus_b li p {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+/*--------- 리뷰  --------*/
+
+.review {
+  margin: 0 auto;
+  width: 1200px;
+  height: 363px;
+  text-align: left;
+  position: relative;
+}
+.review h2 {
+  position: absolute;
+  top: 34px;
+  left: 57px;
+  font-size: 50px;
+  color: #fff;
+  z-index: 500;
+}
+.review a img {
+  margin-left: 2%;
+  width: 92%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.banner {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 1200px;
+}
+.banner li {
+  float: left;
+  margin-left: 25px;
+  margin-right: 50px;
+  width: 550px;
+  height: 400px;
+}
+.banner li:last-child {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.banner li a h2 {
+  padding: 20px 0;
+  color: black;
+  font-size: 35px;
+}
+.banner li a p {
+  color: black;
+  line-height: 25px;
+}
+/*--------- 하단 부분  --------*/
+#footer {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background-color: #222;
+  position: relative;
+}
+
+#hide {
+  width: 100%;
+  height: 200px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: -50;
+}
+
+#hide > .menu {
+  float: left;
+  margin-top: 25px;
+  margin-left: 570px;
+}
+#hide > .menu > li {
+  font-size: 18px;
+  font-weight: 900;
+  float: left;
+  margin-right: 45px;
+}
+
+#hide .sub_mn > li {
+  padding: 3px 0;
+}
+#hide .sub_mn > li > a {
+  font-size: 13px;
+  color: #666;
+}
+#show {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+  z-index: 50;
+}
+.logo_b {
+  float: left;
+  width: 15%;
+  height: 300px;
+  position: relative;
+}
+.logo_b a {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+}
+.address {
+  float: left;
+  width: 65%;
+  height: 300px;
+}
+
+.f_top {
+  width: 100%;
+  height: 80px;
+}
+.f_top ul li {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.f_top ul li a {
+  color: #fff;
+  font-size: 20px;
+}
+.f_bot {
+  width: 100%;
+  height: 220px;
+}
+.f_bot p {
+  margin-left: 30px;
+  font-size: 11px;
+  color: #666;
+  line-height: 20px;
+}
+#footer .call {
+  float: left;
+  width: 20%;
+  height: 300px;
+}
+.call > ul {
+  float: right;
+  margin-top: 10px;
+}
+.call > ul > li {
+  float: right;
+  padding: 18px 10px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+}
+.call > ul > li:first-child {
+  cursor: pointer;
+}
+
+.call ul > li:nth-child(2) {
+  font-size: 17px;
+  font-weight: 900;
+  color: #fff;
+}

@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+#wrapper {
+  width: 100%;
+}
+
+/* 상단 부분 */
+#header {
+  float: left;
+  width: 100%;
+}
+
+.h_top {
+  float: left;
+  width: 100%;
+  height: 72px;
+  background-color: #777171;
+}
+.top_mn {
+  margin: 0 360px;
+  width: 1200px;
+}
+.top_mn ul {
+  float: right;
+  margin: 17px 0;
+}
+.top_mn li {
+  float: left;
+  margin-right: 25px;
+}
+.top_mn a {
+  font-size: 30px;
+  color: #fff;
+}
+.h_bot {
+  float: left;
+  width: 100%;
+  height: 175px;
+}
+.nav {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 175px;
+}
+.logo {
+  float: left;
+  margin: 54px 0 39px 0;
+}
+
+.logo img {
+  width: 188px;
+  height: 82px;
+}
+.nav ul {
+  position: absolute;
+  float: left;
+  margin: 68px 0 53px 225px;
+}
+.nav li {
+  float: left;
+  margin-right: 12px;
+}
+.nav a {
+  font-size: 39px;
+  color: black;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav li:last-child > a > img {
+  float: left;
+  width: 75px;
+  height: 55px;
+}
+
+/*--------- 메인 이미지 --------*/
+#main {
+  float: left;
+  width: 100%px;
+  height: 830px;
+  position: relative;
+}
+#main img {
+  width: 100%;
+  height: 830px;
+}
+
+/*--------- 콘텐츠  --------*/
+#contents {
+  float: left;
+  width: 100%;
+  height: 6450px;
+}
+
+/*--------- 브랜드 프로마이즈 --------*/
+.promise {
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 1200px;
+  height: 500px;
+}
+.promise h4 {
+  font-size: 20px;
+  margin: 10px 0 0 30px;
+  font-weight: 900;
+  color: #222;
+}
+.promise h1 {
+  font-size: 45px;
+  margin: 30px 0 0 30px;
+  font-weight: 900;
+  color: black;
+}
+.promise p {
+  font-size: 18px;
+  margin: 15px 0 0 30px;
+  font-weight: 900;
+}
+
+/*--------- 신선한 재료 --------*/
+.fresh {
+  margin-top: 200px;
+}
+
+/*--------- 셰프가 만든 메뉴 --------*/
+.chef_mn {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1200px;
+  height: 900px;
+}
+.chef_mn div {
+  float: left;
+}
+.chef_mn h4 {
+  font-size: 20px;
+  margin: 10px 0 0 30px;
+  font-weight: 900;
+  color: #222;
+}
+.chef_mn h1 {
+  font-size: 45px;
+  margin: 30px 0 0 30px;
+  font-weight: 900;
+  color: black;
+}
+.chef_mn p {
+  font-size: 23px;
+  margin: 20px 0 0 30px;
+  font-weight: 900;
+}
+.chef_mn ul {
+  margin: 0 auto;
+  width: 1200px;
+  height: 420px;
+}
+.chef_mn ul li {
+  margin-top: 100px;
+  float: left;
+  margin-right: 50px;
+}
+.chef_mn ul li:last-child {
+  margin-right: 0;
+}
+.chef_mn ul li img {
+  width: 550px;
+  height: 420px;
+}
+
+/*--------- 브랜드 프로마이즈 --------*/
+.recommand {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 1200px;
+  height: 1500px;
+}
+.recommand h4 {
+  font-size: 20px;
+  margin: 10px 0 0 30px;
+  font-weight: 900;
+  color: #222;
+}
+.recommand h1 {
+  font-size: 45px;
+  margin: 30px 0 0 30px;
+  font-weight: 900;
+  color: black;
+}
+.recommand p {
+  font-size: 18px;
+  margin: 15px 0 0 30px;
+  font-weight: 900;
+}
+.recommand img {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 1200px;
+}
+
+/* --------------------------- */
+/*----------  패키징  ---------*/
+/* --------------------------- */
+
+.packaging {
+  position: absolute;
+  width: 100%;
+  height: 1400px;
+  margin-top: 150px;
+  z-index: -300;
+  background: url(/images/back_color.png);
+}
+.packaging #center {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1400px;
+}
+
+.packaging .left {
+  position: relative;
+  float: left;
+  width: 525px;
+  height: 1400px;
+}
+#box {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+}
+.packaging .left h4 {
+  padding: 15px 0;
+  color: black;
+}
+.packaging .left h1 {
+  padding: 0 0 15px 0;
+  font-size: 35px;
+  color: black;
+}
+
+.packaging .right {
+  float: left;
+  width: 675px;
+  height: 1400px;
+}
+
+.packaging .right h3 {
+  padding: 15px 0;
+}
+.packaging .right h2 {
+  padding: 0 0 15px 0;
+}
+#qual {
+  padding: 40px 0 10px 0;
+}
+.packaging .right h4 {
+  font-weight: 900;
+  padding: 30px 0 0 0;
+}
+.packaging .right p {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 900px;
+}
+
+/* --------------------------- */
+/*--------- 하단 부분  --------*/
+/* --------------------------- */
+
+#footer {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background-color: #222;
+  position: relative;
+}
+
+#hide {
+  width: 100%;
+  height: 200px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: -50;
+}
+
+#hide > .menu {
+  float: left;
+  margin-top: 25px;
+  margin-left: 570px;
+}
+#hide > .menu > li {
+  font-size: 18px;
+  font-weight: 900;
+  float: left;
+  margin-right: 45px;
+}
+
+#hide .sub_mn > li {
+  padding: 3px 0;
+}
+#hide .sub_mn > li > a {
+  font-size: 13px;
+  color: #666;
+}
+#show {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+  z-index: 100;
+}
+.logo_b {
+  float: left;
+  width: 15%;
+  height: 300px;
+  position: relative;
+}
+.logo_b a {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+}
+.address {
+  float: left;
+  width: 65%;
+  height: 300px;
+}
+
+.f_top {
+  width: 100%;
+  height: 80px;
+}
+.f_top ul li {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.f_top ul li a {
+  color: #fff;
+  font-size: 20px;
+}
+.f_bot {
+  width: 100%;
+  height: 220px;
+}
+.f_bot p {
+  margin-left: 30px;
+  font-size: 11px;
+  color: #666;
+  line-height: 20px;
+}
+#footer .call {
+  float: left;
+  width: 20%;
+  height: 300px;
+}
+.call > ul {
+  float: right;
+  margin-top: 10px;
+}
+.call > ul > li {
+  float: right;
+  padding: 18px 10px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+}
+.call > ul > li:first-child {
+  cursor: pointer;
+}
+
+.call ul > li:nth-child(2) {
+  font-size: 17px;
+  font-weight: 900;
+  color: #fff;
+}
